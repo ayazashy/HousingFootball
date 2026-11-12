@@ -1,0 +1,19 @@
+# Dependencies & build output
+node_modules
+dist
+dist-ssr
+*.local
+
+# OS & Editor files
+.DS_Store
+.vscode
+.idea
+
+# Environment files
+.env
+.env.*
+
+# PRIVATE ADMIN SOURCE & SECRETS (NEVER COMMITTED TO PUBLIC REPO)
+private-admin/
+private-admin/**
+
