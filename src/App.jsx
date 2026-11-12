@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import {
   Trophy,
   Calendar,
@@ -149,6 +150,7 @@ export default function App() {
   const runtimeDeps = useMemo(
     () => ({
       React,
+      createPortal,
       Icons: LucideIcons,
       kitRenderer,
       footballRules,
